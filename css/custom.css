@@ -1,8 +1,17 @@
+.iconfont {
+  font-family: "iconfont" !important;
+  /* 这里可以自定义图标大小 */
+  font-size: 3em;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 @font-face {
     /* 为载入的字体取名字(随意) */
     font-family: 'YJSP';	
     /* 字体文件地址(相对或者绝对路径都可以) */
-    src: url(/font/cangerW05.ttf);
+    src: url(/font/cangerW05.woff2);
     /* 定义加粗样式(加粗多少) */
     font-weight: normal;
     /* 定义字体样式(斜体/非斜体) */
@@ -41,7 +50,7 @@
   /* 为载入的字体取名字(随意) */
   font-family: 'bbh';	
   /* 字体文件地址(相对或者绝对路径都可以) */
-  src: url(/font/bbh.ttf);
+  src: url(/font/bbh.woff2);
   /* 定义加粗样式(加粗多少) */
   font-weight: normal;
   /* 定义字体样式(斜体/非斜体) */
